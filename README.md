@@ -6,7 +6,7 @@ A simple AngularJS directive for infinite scrolling. Check out the [demo](http:/
 Usage
 -----
 
-All of the infinite scroll's logic is contained within the _app/scripts/directives/infiniteScroll.js_ file. The directive is designed to work seamlessly with Angular's own ng-repeat, requiring only that the controller keeps track of the list.
+All of infinite scroll's logic is contained within the _app/scripts/directives/infiniteScroll.js_ file. The directive is designed to work seamlessly with Angular's own ng-repeat, requiring only that the controller keeps track of the list.
 To use InfiniteScroll, just add it to your app's dependencies:
 ```js
 angular.module('myApp', [
@@ -45,7 +45,7 @@ angular.module('myApp')
         };
     });
 ```
-The directive also can by applied to an element passing the custom attribute _distance-trigger_ which is the distance, in pixels, from the bottom of the scrollable where the directive will load more items. If this attribute is omited, 400 pixels will be used.
+The directive also can by applied to an element passing the custom attribute _distance-trigger_, which is the distance, in pixels, from the bottom of the scrollable where the directive will load more items. If this attribute is omited, 400 pixels will be used.
 
 Installing the demo's dependencies:
 -----------------------------------
