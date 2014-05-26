@@ -13,7 +13,4 @@ angular.module('infiniteScrollApp')
                 $scope.lastItem += $scope.offset + 1;
             });
         };
-
-
-        console.log('Main');
     });
